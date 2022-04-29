@@ -1,1 +1,5 @@
 # Simulating-the-Spread-of-COVID-19
+
+Principal component analysis (PCA) is a dimensionality reduction technique widely used to reduce the dimensions of a large data set by transforming the dimensions of a large data set into small variables containing most of the information found in the large dataset. Of course, the reduction of the variables in the dataset comes at the expense of precision, but the secret to this element reduction is to sacrifice a little accuracy for simplicity. Because smaller data sets are easier and faster for machine learning algorithms without extraneous variables to process. In this problem, the PCA function is developed from scratch and the data extracted is plotted.
+
+The second part of the solution focuses on solving the spatial S.I.R. model to simulate and visualize the spread of disease for multiple fixed populations represented by nodes on a mesh. Given a modified version of an STL file representing the meshed surface of a sample sphere as a text file, the data can be manipulated into a mesh, solved using the differential equations that govern the dynamics of the model, and then visualized.
